@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Learning from "./components/Learning";
-import Review from "./components/Review";
+// import Review from "./components/Review";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 
