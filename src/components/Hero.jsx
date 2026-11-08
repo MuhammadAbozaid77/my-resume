@@ -2,10 +2,10 @@
  *@copyright 2025 ZIDAN
  *@license Apache-2.0
  **/
-import { ButtonOutline, ButtonPrimary } from "./Button";
+import { ButtonOutline } from "./Button";
 import Logo from "./Logo";
 import WhatsAppButton from "./WhatsAppButton";
-
+import personalImage from "./../assets/myImage.jpg";
 export default function Hero() {
   return (
     <section id="home" className="pt-28 lg:pt-36">
@@ -45,7 +45,7 @@ export default function Hero() {
            from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden"
           >
             <img
-              src="/src/assets/myImage2.jpg"
+              src={personalImage}
               alt="ZIDAN"
               width={656}
               height={800}
