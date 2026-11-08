@@ -4,6 +4,7 @@
  **/
 import { ButtonOutline, ButtonPrimary } from "./Button";
 import Logo from "./Logo";
+import WhatsAppButton from "./WhatsAppButton";
 
 export default function Hero() {
   return (
@@ -11,17 +12,7 @@ export default function Hero() {
       <div className="container lg:grid lg:grid-cols-2 items-center lg:gap-10">
         <div>
           <div className="flex items-center gap-3 ">
-            {/* <figure className="img-box w-[50px] h-[50px] rounded-md">
-              <img
-                src="/src/assets/logo1.png"
-                alt=""
-                height={40}
-                width={40}
-                className="img-cover"
-              />
-            </figure> */}
             <Logo />
-
             <div className="flex items-center gap-1.5 text-zinc-400 text-sm tracking-wide">
               <span className="relative w-2 h-2 rounded-full bg-emerald-400 ">
                 <span className="absolute inset-0 rounded-full bg-emerald-400 animate-ping "></span>
@@ -34,11 +25,12 @@ export default function Hero() {
             My Portfolio: Learning, Experiences, Skills, and Projects
           </h2>
           <div className="flex items-center gap-3 ">
-            <ButtonPrimary
+            {/* <ButtonPrimary
               label={"01033662585"}
               icon="phone_enabled
 "
-            />
+            /> */}
+            <WhatsAppButton />
             <ButtonOutline
               href={"#about"}
               label={"Scroll Down"}

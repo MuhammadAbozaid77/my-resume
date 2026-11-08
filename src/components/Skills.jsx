@@ -17,8 +17,8 @@ export default function Skills() {
           exceptional, high-performing websites & applications.
         </p>
         <div className="grid grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))] gap-3 ">
-          {skillItem?.map((el, index) => {
-            return <SkillCard item={el} key={index} classes={"reveal-up"} />;
+          {skillItem?.map((el) => {
+            return <SkillCard item={el} key={el.label} classes={"reveal-up"} />;
           })}
         </div>
       </div>
